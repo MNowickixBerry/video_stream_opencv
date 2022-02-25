@@ -29,6 +29,8 @@ Example usages in launch folder (**only the argument `video_stream_provider` is 
         <arg name="flip_horizontal" value="false" />
         <!-- flip the image vertically -->
         <arg name="flip_vertical" value="false" />
+        <!-- rotate image by -90, 90 or 180 deg -->
+        <arg name="rotate" value="0" />
         <!-- force a width and height, 0 means no forcing -->
         <arg name="width" value="640"/>
         <arg name="height" value="480"/>
